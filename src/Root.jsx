@@ -6,7 +6,7 @@ AOS.init();
 
 const Root = () => {
     return (
-        <div className="">
+        <div className="bg-slate-50">
             <Outlet></Outlet>
         </div>
     );
