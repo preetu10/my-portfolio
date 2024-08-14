@@ -1,0 +1,16 @@
+@media (min-width: 1024px) {
+    .grid-cols-custom {
+      display: grid;
+      grid-template-columns: repeat(8, minmax(0, 1fr));
+      grid-auto-rows: minmax(0, 1fr);
+    }
+  
+    .grid-cols-custom > :nth-child(n+9):nth-child(-n+14) {
+      grid-column: span 2;
+    }
+  
+    .grid-cols-custom > :nth-child(n+15):nth-child(-n+18) {
+      grid-column: span 3;
+    }
+  }
+  

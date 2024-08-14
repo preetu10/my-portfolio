@@ -25,7 +25,7 @@ const Banner = () => {
   <h1 className="text-2xl roboto-medium p-4">
     {" "}
     <Typewriter
-            words={[" MERN Stack Developer and Creative Problem Solver."]}
+            words={[" Full Stack Developer and Creative Problem Solver."]}
             loop={5}
             cursor
             cursorStyle='|'
