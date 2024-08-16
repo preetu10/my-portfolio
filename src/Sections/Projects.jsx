@@ -9,12 +9,12 @@ const Projects = () => {
       .then((data) => setProjects(data));
   }, []);
   return (
-    <div className="my-12 bg-slate-50">
+    <div className="py-5 bg-slate-50">
       <div
         className="flex mt-10 pt-10 pb-16 mx-auto justify-center
       text-center text-3xl md:text-5xl divider divider-info w-4/5 bg-gradient-to-r from-blue-900 via-blue-600 to-cyan-400 bg-clip-text text-transparent roboto-medium "
       >
-        My Projects
+       Dive Into My Work!
       </div>
       <div >
         {projects.map((project, index) => (
@@ -38,7 +38,7 @@ const Projects = () => {
               <h2 className="card-title roboto-bold bg-gradient-to-r from-blue-900 via-blue-600 to-cyan-400 bg-clip-text text-transparent text-3xl">
                 {project.project_name}
               </h2>
-              <span className="text-lg roboto-regular text-stone-700">
+              <span className="text-lg roboto-regular text-yellow-800">
                 {" "}
                 {project.description}
               </span>
@@ -49,8 +49,8 @@ const Projects = () => {
               <ul className="list-outside">
                 {project.features.map((feature, index) => (
                   <li key={index} className="text-lg md:p-1">
-                    <GiCheckMark className="text-yellow-700 text-lg inline mr-2" />
-                    <span className="text-stone-700 roboto-regular">
+                    <GiCheckMark className="text-blue-700 text-lg inline mr-2" />
+                    <span className="text-yellow-800 roboto-regular">
                       {feature}
                     </span>
                   </li>
@@ -68,7 +68,7 @@ const Projects = () => {
                   className="inline items-center justify-center"
                 >
                   <div className="flex flex-row items-center gap-1">
-                    <FaGithub className="text-lg  "></FaGithub>
+                    <FaGithub className="text-lg text-blue-700 "></FaGithub>
                     <span className="bg-gradient-to-r from-blue-900 via-blue-600 to-cyan-400 bg-clip-text text-transparent roboto-medium hover:shadow-2xl hover:shadow-cyan-200 text-lg ">
                       GitHub
                     </span>

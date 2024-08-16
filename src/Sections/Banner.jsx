@@ -42,7 +42,7 @@ const Banner = () => {
      <p data-aos="fade-down"  data-aos-delay="300"> <FaArrowDown></FaArrowDown></p>
  </div>
   <div className="flex flex-row gap-3 justify-center pb-16 lg:pb-2">
-    <button className="text-center  border-2  text-2xl btn btn-ghost btn-outline text-white py-1 px-5 text-transparent hover:bg-gradient-to-r from-blue-900 via-blue-600 to-cyan-400">
+    <button className="text-center  border-2 text-2xl btn btn-ghost btn-outline text-white py-1 px-5 text-transparent hover:bg-gradient-to-r from-blue-900 via-blue-600 to-cyan-400">
       <a href="https://www.linkedin.com/in/mahfuja-yesmin-preety/">
         <FaLinkedin />
       </a>
