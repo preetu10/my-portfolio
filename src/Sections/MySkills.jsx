@@ -1,4 +1,3 @@
-import "./MySkills.css";
 const MySkills = () => {
   const skills = [
     {

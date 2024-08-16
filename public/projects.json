@@ -1,0 +1,66 @@
+[
+  {
+    "project_name": "BuildAura",
+    "type": "Full Stack Website",
+    "description": "BuildAura is a comprehensive Building Management System (BMS) designed to streamline the management of a single building. This platform caters to not only user and admin functionalities but also member functionalities, ensuring a seamless experience for all stakeholders.",
+    "features": [
+      "Users request apartments.",
+      "Members pay rent online and track payments.",
+      "Admin posts announcements, creates coupons, and manages requests."
+    ],
+    "technologies": ["React.js", "Express.js", "MongoDB", "Firebase", "Tailwind CSS", "Stripe"],
+    "live_link": "https://buildaura-e28d5.web.app/",
+    "github_link": "https://github.com/preetu10/build-aura",
+    "desktop_image": "./buildaura-dr.png",
+    "mobile_image": "./buildaura-mr.png",
+    "homepage": "./buildaura-home.png"
+  },
+  {
+    "project_name": "BlissBite",
+    "type": "Full Stack Website",
+    "description": "BlissBite is a community-driven platform dedicated to reducing food waste and promoting food sharing. Our mission is to create a world where surplus food finds its way to those in need, fostering a spirit of generosity and sustainability.",
+    "features": [
+      "Post, update, and remove food donations.",
+      "Browse detailed food donations.",
+      "Request available food items."
+    ],
+    "technologies": ["React.js", "Express.js", "MongoDB", "Firebase", "Tailwind CSS"],
+    "live_link": "https://bliss-bite.web.app/",
+    "github_link": "https://github.com/preetu10/bliss-bite-client",
+    "desktop_image": "./blissbite-dr.png",
+    "mobile_image": "./blissbite-mr.png",
+    "homepage": "./blissbite-home.png"
+  },
+  {
+    "project_name": "ArtNest",
+    "type": "Full Stack Website",
+    "description": "ArtNest is a vibrant online platform dedicated to the celebration and sharing of artistic creations, specifically in the realms of painting and drawing. ArtNest serves as a creative hub where artists can showcase their work, discover other artists, and engage with a community that cherishes the visual arts.",
+    "features": [
+      "Artists upload and manage artwork.",
+      "Explore various art categories.",
+      "View artwork details, ratings, and prices."
+    ],
+    "technologies": ["React.js", "Express.js", "MongoDB", "Firebase", "Tailwind CSS"],
+    "live_link": "https://art-nest-c931b.web.app/",
+    "github_link": "https://github.com/preetu10/artnest-client",
+    "desktop_image": "./rsz_1rsz_1rsz_art-nest-dr.png",
+    "mobile_image": "./art-nest-mr.png",
+    "homepage": "./artnest_home.png"
+  },
+  {
+    "project_name": "DreamDwell",
+    "type": "Frontend Based Website",
+    "description": "DreamDwell is an innovative online platform designed to simplify the process of buying and renting properties, providing a seamless experience for both buyers and sellers. With a user-friendly interface and a comprehensive database of residential properties, DreamDwell makes it easy for users to find their dream home or investment property.",
+    "features": [
+      "Browse residential properties.",
+      "Add properties to cart for comparison.",
+      "Simple registration and profile updates."
+    ],
+    "technologies": ["React.js", "Firebase", "Tailwind CSS"],
+    "live_link": "https://dream-dwell.web.app/",
+    "github_link": "https://github.com/preetu10/dreamdwell--frontend-based-site-",
+    "desktop_image": "./dream-well-dr.png",
+    "mobile_image": "./dream-dwell-mr.png",
+    "homepage": "./dreamdwell-home.png"
+  }
+]

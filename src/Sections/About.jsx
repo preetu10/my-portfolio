@@ -10,7 +10,7 @@ const About = () => {
       >
         Who am I?
       </div>
-      <div className="flex flex-col lg:flex-row py-5 gap-5 lg:gap-12 justify-between px-4 lg:px-48 items-center">
+      <div className="flex flex-col lg:flex-row py-5 gap-5 lg:gap-5 justify-between px-4 lg:px-48 items-center">
         <div
           data-aos="zoom-in"
           data-aos-duration="1300"
@@ -19,7 +19,7 @@ const About = () => {
           <img
             src="./me.jpg"
             alt=""
-            className="w-[300px] h-[280px]  md:w-[500px] md:h-[420px] rounded-2xl"
+            className="w-[300px] h-[280px]  md:w-[450px] md:h-[420px] rounded-2xl"
           />
         </div>
         <div className="lg:w-1/2  ">
