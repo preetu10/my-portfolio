@@ -79,15 +79,20 @@ const MySkills = () => {
     },
   ];
   return (
-    <div className="my-12 bg-slate-50">
+  <section id="skills">
+      <div className="my-12 bg-slate-50">
       <div
         className="flex mt-10 pt-10 pb-16 mx-auto justify-center
-      text-center text-3xl md:text-5xl divider divider-info w-4/5 bg-gradient-to-r from-blue-900 via-blue-600 to-cyan-400 bg-clip-text text-transparent roboto-medium "
+      text-center text-2xl md:text-5xl divider divider-info w-4/5 bg-gradient-to-r from-blue-900 via-blue-600 to-cyan-400 bg-clip-text text-transparent roboto-medium "
       >
         Skills & Technologies I Know
       </div>
 
-      <div data-aos="zoom-out" data-aos-duration="1200" className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4 px-4 md:px-4  lg:px-32">
+      <div
+        data-aos="zoom-out"
+        data-aos-duration="1200"
+        className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4 px-4 md:px-4  lg:px-32"
+      >
         {skills.map((skill) => (
           <div
             key={skill.name}
@@ -102,7 +107,11 @@ const MySkills = () => {
           </div>
         ))}
       </div>
-      <div data-aos="zoom-out" data-aos-duration="1200" className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 px-4 md:px-8 lg:px-56">
+      <div
+        data-aos="zoom-out"
+        data-aos-duration="1200"
+        className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 px-4 md:px-8 lg:px-56"
+      >
         {skills2.map((skill) => (
           <div
             key={skill.name}
@@ -117,7 +126,11 @@ const MySkills = () => {
           </div>
         ))}
       </div>
-      <div data-aos="zoom-out" data-aos-duration="1200" className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 px-4 md:px-48 lg:px-96">
+      <div
+        data-aos="zoom-out"
+        data-aos-duration="1200"
+        className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 px-4 md:px-48 lg:px-96"
+      >
         {skills3.map((skill) => (
           <div
             key={skill.name}
@@ -133,6 +146,7 @@ const MySkills = () => {
         ))}
       </div>
     </div>
+  </section>
   );
 };
 

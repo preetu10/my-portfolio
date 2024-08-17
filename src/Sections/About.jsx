@@ -3,7 +3,8 @@ import { FaDownload } from "react-icons/fa6";
 
 const About = () => {
   return (
-    <div className="my-12 bg-slate-50">
+    <section id="about">
+      <div className="my-12 bg-slate-50">
       <div
         className="flex mt-10 pt-10 pb-16 mx-auto justify-center
       text-center  text-3xl md:text-5xl divider divider-info w-4/5 bg-gradient-to-r from-blue-900 via-blue-600 to-cyan-400 bg-clip-text text-transparent roboto-medium "
@@ -49,6 +50,7 @@ const About = () => {
         </div>
       </div>
     </div>
+    </section>
   );
 };
 

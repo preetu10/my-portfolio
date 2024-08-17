@@ -9,18 +9,20 @@ const Projects = () => {
       .then((data) => setProjects(data));
   }, []);
   return (
-    <div className="py-5 bg-slate-50">
+   <section id="works">
+     <div className="py-5 bg-slate-50">
       <div
         className="flex mt-10 pt-10 pb-16 mx-auto justify-center
       text-center text-3xl md:text-5xl divider divider-info w-4/5 bg-gradient-to-r from-blue-900 via-blue-600 to-cyan-400 bg-clip-text text-transparent roboto-medium "
       >
-       Dive Into My Work!
+        Dive Into My Work!
       </div>
-      <div >
+      <div>
         {projects.map((project, index) => (
           <div
             key={index}
-            data-aos="fade-right" data-aos-duration="1300"
+            data-aos="fade-right"
+            data-aos-duration="1300"
             className="card flex flex-col md:card-side bg-base-100 shadow-xl my-5 py-5 px-5 mx-4"
           >
             <figure className="rounded-xl border-2 md:w-1/2 mt-12 md:mt-0 ">
@@ -90,6 +92,7 @@ const Projects = () => {
         ))}
       </div>
     </div>
+   </section>
   );
 };
 

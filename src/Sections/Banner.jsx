@@ -5,7 +5,8 @@ import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa6";
 import { Typewriter } from 'react-simple-typewriter'
 const Banner = () => {
   return (
-    <div
+  <section id="home">
+      <div
     className="hero min-h-screen"
     style={{
       backgroundImage: "url(./banner.jpeg)",
@@ -67,6 +68,7 @@ const Banner = () => {
       </div>
     </div>
   </div>
+  </section>
   );
 };
 
