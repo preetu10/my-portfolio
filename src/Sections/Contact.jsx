@@ -56,7 +56,7 @@ const Contact = () => {
       <div className="pt-5 bg-slate-800">
         <div
           className="flex mt-10 pt-5 pb-10 mx-auto justify-center
-      text-center text-3xl md:text-5xl divider divider-info w-4/5 text-white roboto-medium "
+      text-center text-2xl md:text-4xl divider divider-info w-4/5 text-white roboto-medium "
         >
           Let’s Connect!
         </div>

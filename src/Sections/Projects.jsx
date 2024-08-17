@@ -13,7 +13,7 @@ const Projects = () => {
      <div className="py-5 bg-slate-50">
       <div
         className="flex mt-10 pt-10 pb-16 mx-auto justify-center
-      text-center text-3xl md:text-5xl divider divider-info w-4/5 bg-gradient-to-r from-blue-900 via-blue-600 to-cyan-400 bg-clip-text text-transparent roboto-medium "
+      text-center text-2xl md:text-4xl divider divider-info w-4/5 bg-gradient-to-r from-blue-900 via-blue-600 to-cyan-400 bg-clip-text text-transparent roboto-medium "
       >
         Dive Into My Work!
       </div>
@@ -91,6 +91,14 @@ const Projects = () => {
           </div>
         ))}
       </div>
+      <div className="flex items-center justify-center">
+         <button
+            data-aos-anchor-placement="top-bottom"
+            className="btn btn-ghost btn-outline bg-gradient-to-r from-blue-900 via-blue-600 to-cyan-400 border-2 border-yellow-600 text-white text-xl roboto-regular hover:bg-cyan-300 my-4 mx-1 hover:border-blue-900"
+          >
+            Show All 
+          </button>
+          </div>
     </div>
    </section>
   );
