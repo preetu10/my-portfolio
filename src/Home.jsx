@@ -10,7 +10,7 @@ import Projects from "./Sections/Projects";
 const Home = () => {
     return (
         <div>
-            <Navbar></Navbar>
+             <Navbar></Navbar>
             <Banner></Banner>
             <About></About>
             {/* <Education></Education> */}

@@ -6,6 +6,7 @@ import { Typewriter } from 'react-simple-typewriter'
 const Banner = () => {
   return (
   <section id="home">
+   
       <div
     className="hero min-h-screen"
     style={{
@@ -14,7 +15,7 @@ const Banner = () => {
     <div className="hero-overlay bg-opacity-90"></div>
     <div className="hero-content text-neutral-content text-center">
       <div className="max-w-4xl">
-      <div className="text-center text-white  max-w-4xl mx-auto">
+      <div className="text-center text-white  max-w-4xl mx-auto pt-16 md:pt-5">
   <h1 data-aos="zoom-in"  data-aos-duration="1200" className="text-4xl text-white  roboto-black">
     Hi, I'm
     <br />

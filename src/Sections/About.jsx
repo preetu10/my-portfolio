@@ -2,6 +2,7 @@
 import { FaDownload } from "react-icons/fa6";
 
 const About = () => {
+  const pdfUrl = "./Mahfuja's_Resume.pdf";
   return (
     <section id="about">
       <div className="py-5 bg-slate-50">
@@ -39,6 +40,7 @@ const About = () => {
             for new challenges.
           </p>
          <div className="flex items-center justify-center">
+         <a href={pdfUrl} target="_blank" rel="noopener noreferrer">
          <button
             data-aos="fade-up"
             data-aos-duration="1300"
@@ -48,6 +50,7 @@ const About = () => {
             <FaDownload />
             Download Resume
           </button>
+          </a>
          </div>
         </div>
       </div>

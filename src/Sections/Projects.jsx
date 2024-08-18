@@ -3,11 +3,17 @@ import { FaGithub } from "react-icons/fa6";
 import { GiCheckMark } from "react-icons/gi";
 const Projects = () => {
   const [projects, setProjects] = useState([]);
+  const [showAll, setShowAll] = useState([]);
   useEffect(() => {
     fetch("./projects.json")
       .then((response) => response.json())
-      .then((data) => setProjects(data));
+      .then((data) => {
+        setShowAll(data);
+        setProjects(data.slice(0,3))});
   }, []);
+  const handleShowAll=() =>{
+    setProjects(showAll);
+  }
   return (
    <section id="works">
      <div className="py-5 bg-slate-50">
@@ -23,7 +29,7 @@ const Projects = () => {
             key={index}
             data-aos="fade-right"
             data-aos-duration="1300"
-            className="card flex flex-col md:card-side bg-base-100 shadow-xl my-5 py-5 px-5 mx-4"
+            className="card flex flex-col  md:card-side bg-base-100 shadow-xl my-5 py-5 px-5 mx-4"
           >
             <figure className="rounded-xl border-2 md:w-1/2 mt-12 md:mt-0 ">
               <img
@@ -92,12 +98,15 @@ const Projects = () => {
         ))}
       </div>
       <div className="flex items-center justify-center">
-         <button
-            data-aos-anchor-placement="top-bottom"
-            className="btn btn-ghost btn-outline bg-gradient-to-r from-blue-900 via-blue-600 to-cyan-400 border-2 border-yellow-600 text-white text-xl roboto-regular hover:bg-cyan-300 my-4 mx-1 hover:border-blue-900"
-          >
-            Show All 
-          </button>
+      {projects.length !== showAll.length && (
+            <button
+              onClick={handleShowAll}
+              data-aos-anchor-placement="top-bottom"
+              className="btn btn-ghost btn-outline bg-gradient-to-r from-blue-900 via-blue-600 to-cyan-400 border-2 border-yellow-600 text-white text-xl roboto-regular hover:bg-cyan-300 my-4 mx-1 hover:border-blue-900"
+            >
+              Show All
+            </button>
+          )}
           </div>
     </div>
    </section>
