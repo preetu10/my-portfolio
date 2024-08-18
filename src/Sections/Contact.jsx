@@ -53,7 +53,7 @@ const Contact = () => {
   }
   return (
     <section id="contact">
-      <div className="pt-5 bg-opacity-100"
+      <div className="pt-5 bg-opacity-100 px-2"
       style={{
         backgroundImage: "url(./banner2.jpg)",
        
@@ -164,7 +164,7 @@ const Contact = () => {
                 </div>
               </div>
               <div className="md:w-1/2 pt-5">
-                <div className="card pt-5 border-2 hover:border-blue-700 bg-slate-300 w-96 shadow-2xl shadow-cyan-200">
+                <div className="card pt-5  border-2 hover:border-blue-700 bg-slate-300 w-96 shadow-2xl shadow-cyan-200">
                   <form className="card-body" ref={form} onSubmit={sendEmail}>
                     <h1 className="bg-gradient-to-r from-blue-900 via-blue-600 to-cyan-400 text-3xl roboto-bold bg-clip-text text-transparent text-center">
                       Send Email
