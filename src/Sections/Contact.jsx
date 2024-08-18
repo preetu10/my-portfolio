@@ -53,7 +53,7 @@ const Contact = () => {
   }
   return (
     <section id="contact">
-      <div className="pt-5 bg-opacity-100 px-2"
+      <div className="pt-5 bg-opacity-100"
       style={{
         backgroundImage: "url(./banner2.jpg)",
        
@@ -64,7 +64,7 @@ const Contact = () => {
         >
           Let’s Connect!
         </div>
-        <div className=" px-2 md:px-12">
+        <div className="px-1 md:px-12">
           <div className="flex items-center justify-between pb-16 pt-5">
             <div className="flex flex-col md:flex-row  gap-2 md:gap-5 lg:gap-48 items-center justify-center md:max-w-5xl mx-auto">
               <div className="md:w-1/2">
@@ -163,8 +163,8 @@ const Contact = () => {
                   </div>
                 </div>
               </div>
-              <div className="md:w-1/2 pt-5">
-                <div className="card pt-5  border-2 hover:border-blue-700 bg-slate-300 w-96 shadow-2xl shadow-cyan-200">
+              <div className=" md:w-1/2 pt-5">
+                <div className="card pt-5  border-2 hover:border-blue-700 bg-slate-300  md:w-96 shadow-2xl shadow-cyan-200">
                   <form className="card-body" ref={form} onSubmit={sendEmail}>
                     <h1 className="bg-gradient-to-r from-blue-900 via-blue-600 to-cyan-400 text-3xl roboto-bold bg-clip-text text-transparent text-center">
                       Send Email
