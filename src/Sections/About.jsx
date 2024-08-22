@@ -27,7 +27,7 @@ const About = () => {
         {/* <div className=" lg:w-1/2">   */}
         <div className="md:w-4/5 mx-auto">
           <p className="text-lg lg:text-xl roboto-regular-italic text-yellow-800">
-            I am an ambitious full stack web developer currently pursuing a BSc (Engg) in
+            I am an ambitious emerging web developer currently pursuing a BSc (Engg) in
             Computer Science and Engineering at the University of Chittagong. I
             specialize in creating dynamic, user-centric web applications that
             solve real-world challenges. My expertise lies in utilizing React,  Express.js, MongoDB, and Tailwind CSS to build scalable and efficient
