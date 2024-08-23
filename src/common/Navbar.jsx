@@ -1,7 +1,7 @@
 import { FaDownload } from "react-icons/fa6";
 
 const Navbar = () => {
-  const pdfUrl = "./Mahfuja's_Resume.pdf";
+  const pdfUrl = "./Resume.pdf";
   const links = (
     <>
       <li className="text-lg font-semibold">
